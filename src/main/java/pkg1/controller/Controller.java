@@ -27,7 +27,7 @@ public class Controller {
 	@PostMapping("/customer/add")
 	public String addCustomer(@RequestBody CustomerEntity cue) {
 		customer_repo.save(cue);
-		return "Success";
+		return "Success......................";
 	}
 	@PutMapping("/generateOTP")
 	public int generateOTP(@RequestParam long cust_id) {
